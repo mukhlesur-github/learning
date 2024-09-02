@@ -5,7 +5,7 @@ what ever we are developing in local we can push that into origin
 
 we also can pull code from origin made changes and push the same into origin again.
 
-
+scenerio 1:
 git pull - to pull the code from origin 
 
 make changes in the code 
@@ -27,6 +27,50 @@ git commit -m "meaningfull commit messages"
 code is commited and now you can push the same into the origin or gitlab in main branch
 
 git push origin main   
+
+
+scenerio 2:
+
+create local directory, write code
+
+initialize git in the pwd
+
+git init
+
+check whether initialized or not
+there must be ./ file
+
+git status 
+
+set the origin value with the url where you want to push the developed code in local,
+you can get the url from github https link of the repository
+
+
+git remote add origin https://github.com/mukhlesur-github/learning.git
+
+now again same process
+
+git add file.py
+
+git commit -m "message"
+
+git branch to check the branch name if its master change the name 
+
+git branch -M main -- this will change the current branch name into main
+
+git push origin main  -- to finally push the files into github
+
+you can set upsteam value as well to not right git push oring main everytime
+
+git push -u oring main -- this will set the default upstream as origin main so from next time only
+
+git push -- will work
+
+
+
+
+
+
 
 
 
