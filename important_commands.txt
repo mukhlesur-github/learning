@@ -1,0 +1,36 @@
+git is local
+gitlab/github/bit bucket is remote site or origin
+
+what ever we are developing in local we can push that into origin
+
+we also can pull code from origin made changes and push the same into origin again.
+
+
+git pull - to pull the code from origin 
+
+make changes in the code 
+
+now to check which codes got changes you can check using
+
+git status
+
+once you get all the untracked files, meaning files where changes have made then add the same in the stage to do that
+
+git add file.py  - it will only stage the file.py
+
+git add .  - at once to stage all the changed files
+
+to commit all the staged files at once 
+
+git commit -m "meaningfull commit messages"
+
+code is commited and now you can push the same into the origin or gitlab in main branch
+
+git push origin main   
+
+
+
+
+
+
+
