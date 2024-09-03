@@ -1,0 +1,33 @@
+git branch -- to check which all branch we have 
+* points the current branch
+
+we can create branch using 
+
+git branch z_mmr_branch
+
+whatever the base branch you are in most probably the main branch, 
+everythin will get copied into this z_mmr_branch
+
+git branch -b new_branch_name base_branch_name 
+
+this is to create a new_branch from a base_branch_name
+
+-b for base 
+
+to change a branch
+
+git checkout new_branch_name
+
+git status to check whether branch switched notice * symble
+
+to delete a branch / you have to execute this in some other branch/ 
+we cant delete base branch from base branch
+
+git branch -d new_branch_name
+
+to create a branch from another branch from another base branch and swithced to the new one at single command
+
+git checkout -b new_branch_name base_branch_name
+
+
+
