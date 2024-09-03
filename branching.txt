@@ -20,3 +20,35 @@ git checkout new_branch_name
 
 git status to check whether branch switched notice * symble
 
+to delete a branch / you have to execute this in some other branch/ 
+we cant delete base branch from base branch
+
+git branch -d new_branch_name
+
+to create a branch from another branch from another base branch and swithced to the new one at single command
+
+git checkout -b new_branch_name base_branch_name
+
+
+revert any changes
+------------------
+not staged :  git restore <file_name>
+
+staged : git restore --staged <file_name>
+         git restore <file_name>
+
+pushed to github:
+    -to check git log
+    git log
+
+    take the hatch value of the last commit you want restore 
+
+    git reset e388ad4a098fa8666350f7f56a36780b9509f9dc
+
+    to go the last commit/one step back:
+
+    git reset head~1 
+
+
+
+git status 
